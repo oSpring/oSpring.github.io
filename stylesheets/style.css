@@ -1,0 +1,76 @@
+html,body,ul,li {padding: 0;margin: 0;}
+a {text-decoration: none;color:rgb(140, 138, 139);}
+a:hover {
+	color:#00b68c;
+}
+html {
+	width:100%;
+	height:100%;
+}
+body {
+	background:#00b68c;
+	font-family: "Apercu Pro Regular",'Trebuchet MS',Arial,sans-serif;
+	width:100%;
+	height:95%;
+	position:relative;
+}
+h1 {
+	font-size:26px;
+	text-align:center;
+	color:#FFF;
+	display:none;
+}
+
+.message {
+	position:absolute;
+	top:25%;
+	left:50%;
+	margin-left:-123px;
+	width:332px;
+}
+.caption {
+	font-size: 88px;
+	color: #fff;
+	margin-bottom:30px;
+}
+.text {
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 26px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+	position:absolute;
+	bottom:30px;
+	left:50%;
+	margin-left:-157px;
+	text-align:center;
+	width: 314px;
+	height: 56px;
+	background: #fff;
+	border-radius: 28px;
+	line-height: 56px;
+	padding: 0 43px;
+}
+
+.menu li {
+	
+	display:inline;
+	padding: 0 9px;
+}
